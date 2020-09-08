@@ -6,9 +6,9 @@ using System.Collections.Generic;
 
 namespace TelCo.ColorCoder
 {
-  public class GetPair:TelColorPair
+  public class GetPair
     {
-      internal static int GetPairNumberFromColor(ColorPair pair)
+      internal static int GetPairNumberFromColor(TelColorCode.ColorPair pair)
         {
             // Find the major color in the array and get the index
             int majorIndex = -1;
