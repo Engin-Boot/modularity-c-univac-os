@@ -8,7 +8,22 @@ using System.Drawing;
 
 namespace Telco.ColorCoder
 {
-internal class ColorPair:Color
+     class TelColorPair
+     {       
+        /// <summary>
+        /// Array of Major colors
+        /// </summary>
+        #region COLOR
+        private static Color[] colorMapMajor;
+        /// <summary>
+        /// Array of minor colors
+        /// </summary>
+        private static Color[] colorMapMinor;
+        /// <summary>
+        /// data type defined to hold the two colors of clor pair
+        /// </summary>
+        #endregion
+        internal class ColorPair:Color
         {
             internal Color majorColor;
             internal Color minorColor;
@@ -31,4 +46,5 @@ internal class ColorPair:Color
         /// </summary>
         /// <param name="pairNumber">Pair number of the color to be fetched</param>
         /// <returns></returns>
+     }        
 }
