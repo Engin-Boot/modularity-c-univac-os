@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Drawing;
-namespace Telco.ColorCoder
+
+namespace TelCo.ColorCoder
 {
   class GetNumber:
   {
-      private static ColorPair GetColorFromPairNumber(int pairNumber)
+      internal static ColorPair GetColorFromPairNumber(int pairNumber)
         {
             // The function supports only 1 based index. Pair numbers valid are from 1 to 25
             int minorSize = colorMapMinor.Length;
@@ -37,5 +38,5 @@ namespace Telco.ColorCoder
         /// </summary>
         /// <param name="pair">Color pair with major and minor color</param>
         /// <returns></returns>    
- }    
+  }    
 }
