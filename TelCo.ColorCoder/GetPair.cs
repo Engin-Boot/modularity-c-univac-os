@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace TelCo.ColorCoder
 {
-public class GetPair: ColorPair
+public class GetPair
 {
   private static int GetPairNumberFromColor(ColorPair pair)
         {
