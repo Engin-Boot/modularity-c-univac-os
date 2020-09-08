@@ -8,7 +8,7 @@ namespace TelCo.ColorCoder
 {
   public class GetPair
     {
-      internal static int GetPairNumberFromColor(TelColorCode.ColorPair pair)
+      internal static int GetPairNumberFromColor(TelColorPair.ColorPair pair)
         {
             // Find the major color in the array and get the index
             int majorIndex = -1;
