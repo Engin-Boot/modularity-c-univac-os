@@ -1,0 +1,5 @@
+TelColorPair--declartion of class
+GetNumber--get paircolor from Number;
+GetPair--get numbers from pair;
+program--main
+
