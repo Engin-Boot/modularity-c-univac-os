@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Drawing;
 namespace Telco.ColorCoder
 {
-  class GetColor:ColorPair
+  class GetColorNumber:ColorPair
   {
       private static ColorPair GetColorFromPairNumber(int pairNumber)
         {
