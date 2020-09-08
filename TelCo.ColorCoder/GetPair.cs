@@ -40,7 +40,7 @@ namespace TelCo.ColorCoder
 
             // Compute pair number and Return  
             // (Note: +1 in compute is because pair number is 1 based, not zero)
-            return (majorIndex * .TelColorPair.colorMapMinor.Length) + (minorIndex + 1);
+            return (majorIndex * TelColorPair.colorMapMinor.Length) + (minorIndex + 1);
         }
         /// <summary>
         /// Test code for the class
