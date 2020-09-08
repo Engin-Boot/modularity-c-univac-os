@@ -13,8 +13,8 @@ namespace TelCo.ColorCoder
       internal static TelColorPair.ColorPair GetColorFromPairNumber(int pairNumber)
         {
             // The function supports only 1 based index. Pair numbers valid are from 1 to 25
-            int minorSize = colorMapMinor.Length;
-            int majorSize = colorMapMajor.Length;
+            int minorSize = TelColorPair.colorMapMinor.Length;
+            int majorSize = TelColorPair.colorMapMajor.Length;
             if (pairNumber < 1 || pairNumber > minorSize * majorSize)
             {
                 throw new ArgumentOutOfRangeException(
