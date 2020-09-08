@@ -23,7 +23,7 @@ namespace TelCo.ColorCoder
 
             // Find the minor color in the array and get the index
             int minorIndex = -1;
-            for (int i = 0; i < TelColorPaircolorMapMinor.Length; i++)
+            for (int i = 0; i < TelColorPair.colorMapMinor.Length; i++)
             {
                 if (TelColorPair.colorMapMinor[i] == pair.minorColor)
                 {
