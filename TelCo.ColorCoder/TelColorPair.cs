@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-     class TelColorPair
+   public class TelColorPair
      {       
         /// <summary>
         /// Array of Major colors
