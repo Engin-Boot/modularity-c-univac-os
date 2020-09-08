@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-  class GetNumber
+  public class GetNumber:TelColorPair
   {
       internal static ColorPair GetColorFromPairNumber(int pairNumber)
         {
