@@ -12,9 +12,9 @@ namespace TelCo.ColorCoder
         {
             // Find the major color in the array and get the index
             int majorIndex = -1;
-            for (int i = 0; i < colorMapMajor.Length; i++)
+            for (int i = 0; i < TelColorPair.colorMapMajor.Length; i++)
             {
-                if (colorMapMajor[i] == pair.majorColor)
+                if (TelColorPair.colorMapMajor[i] == pair.majorColor)
                 {
                     majorIndex = i;
                     break;
