@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Drawing;
 
-namespace Telco.ColorCoder
+namespace TelCo.ColorCoder
 {
      class TelColorPair
      {       
