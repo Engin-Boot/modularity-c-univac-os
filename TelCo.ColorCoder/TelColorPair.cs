@@ -23,7 +23,7 @@ namespace Telco.ColorCoder
         /// data type defined to hold the two colors of clor pair
         /// </summary>
         #endregion
-        internal class ColorPair:Color
+        internal class ColorPair
         {
             internal Color majorColor;
             internal Color minorColor;
